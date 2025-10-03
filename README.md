@@ -2,8 +2,7 @@
 
 NutriPlanner é uma aplicação web moderna construída para ajudar usuários a planejar suas refeições semanais, gerenciar uma biblioteca de alimentos e acompanhar suas metas nutricionais de forma visual e intuitiva.
 
-![Screenshot do Dashboard do NutriPlanner](./assets/dashnutri.png)  
-*(Adicione aqui uma imagem do dashboard principal da aplicação)*
+![Screenshot do Dashboard do NutriPlanner](./src/assets/dashnutri.png)  
 
 ---
 
