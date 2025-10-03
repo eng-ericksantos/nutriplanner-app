@@ -1,0 +1,61 @@
+{
+  "name": "Meal",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Data da refeição"
+    },
+    "meal_type": {
+      "type": "string",
+      "enum": [
+        "café da manhã",
+        "lanche da manhã",
+        "almoço",
+        "lanche da tarde",
+        "jantar",
+        "ceia"
+      ],
+      "description": "Tipo de refeição"
+    },
+    "foods": {
+      "type": "array",
+      "description": "Alimentos da refeição",
+      "items": {
+        "type": "object",
+        "properties": {
+          "food_id": {
+            "type": "string"
+          },
+          "food_name": {
+            "type": "string"
+          },
+          "portions": {
+            "type": "number"
+          },
+          "calories": {
+            "type": "number"
+          },
+          "protein": {
+            "type": "number"
+          },
+          "carbs": {
+            "type": "number"
+          },
+          "fats": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "string",
+      "description": "Notas sobre a refeição"
+    }
+  },
+  "required": [
+    "date",
+    "meal_type"
+  ]
+}

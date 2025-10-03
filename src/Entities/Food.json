@@ -1,0 +1,49 @@
+{
+  "name": "Food",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Nome do alimento"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "proteína",
+        "carboidrato",
+        "legume",
+        "fruta",
+        "laticínio",
+        "gordura",
+        "bebida",
+        "outro"
+      ],
+      "description": "Categoria do alimento"
+    },
+    "serving_size": {
+      "type": "number",
+      "description": "Tamanho da porção em gramas"
+    },
+    "calories": {
+      "type": "number",
+      "description": "Calorias por porção"
+    },
+    "protein": {
+      "type": "number",
+      "description": "Proteína em gramas"
+    },
+    "carbs": {
+      "type": "number",
+      "description": "Carboidratos em gramas"
+    },
+    "fats": {
+      "type": "number",
+      "description": "Gorduras em gramas"
+    }
+  },
+  "required": [
+    "name",
+    "category",
+    "calories"
+  ]
+}
