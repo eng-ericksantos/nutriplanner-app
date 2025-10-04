@@ -52,10 +52,15 @@ Acesse o endereço exibido no terminal:
 ## 🛠️ Tecnologias Utilizadas
 
 Frontend: React.js
+
 Build Tool: Vite - um ambiente de desenvolvimento extremamente rápido.
+
 Estilização: Tailwind CSS - um framework de CSS utility-first para design rápido e responsivo.
+
 Componentes de UI: Shadcn/UI - coleção de componentes reutilizáveis e acessíveis.
+
 Ícones: Lucide React
+
 Animações: Framer Motion
 
 ## 📈 Próximos Passos e Evolução do Projeto
