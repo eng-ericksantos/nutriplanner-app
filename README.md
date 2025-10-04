@@ -28,14 +28,13 @@ NutriPlanner é uma aplicação web moderna construída para ajudar usuários a 
 
 ### ⚡ Passo a Passo
 
-1. **Clone o Repositório**
+### 1. **Clone o Repositório**
 
    ```bash
    git clone https://github.com/seu-usuario/nutriplanner-app.git
+   ```
 
-## 🚀 Como Rodar o Projeto Localmente
-
-### 1. Navegue até a Pasta do Projeto
+### 2. Navegue até a Pasta do Projeto e Compile
   
   ```bash
   cd nutriplanner-app
